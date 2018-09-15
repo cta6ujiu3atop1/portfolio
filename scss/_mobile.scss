@@ -1,0 +1,33 @@
+//Widescreens
+@include mediaXl {}
+
+//Desktops
+@include mediaLg {}
+
+//Tablets&Small laptops
+@include mediaMd {
+    main {
+        align-items: center;
+        text-align: center;
+
+        .lg-heading {
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+    }
+
+    ul.menu-nav,
+    div.menu-branding {
+        float: none;
+    }
+}
+
+//Smartphones
+@include mediaSm {
+    main#home h1 {
+        margin-top: 10vh;
+    }
+}
+
+//Widescreens
+@include mediaXl {}
