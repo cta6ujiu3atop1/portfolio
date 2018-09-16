@@ -99,7 +99,9 @@
       margin-bottom: 1rem; }
   ul.menu-nav,
   div.menu-branding {
-    float: none; } }
+    float: none;
+    width: 100%;
+    min-height: 0; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
