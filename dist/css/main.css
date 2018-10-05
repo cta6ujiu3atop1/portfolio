@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(/dist/img/rsz_photo_2018-09-15_20-57-12.jpg);
+      background: url(../img/rsz_photo_2018-09-15_20-57-12.jpg);
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -101,11 +101,11 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/background.jpg);
+    background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
